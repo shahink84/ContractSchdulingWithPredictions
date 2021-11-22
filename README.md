@@ -20,7 +20,8 @@ This repo contains the code for the project “Contract SchedulingWith Predictio
 
 **Setting parameters:**
 
-	In an input file, set the parameters using the template provided in the sample “input_parameters.txt”. Please follow the instructions in that file.
+	In an input file, set the parameters using the template provided in the sample “input_parameters.txt”. 
+	Please follow the instructions in that file.
 	You might copy “input_parameters.txt” and change the parameters (e.g., r or H) in a new file. 
 	Do not remove/rename “input_parameters.txt” as it acts as default input when no input-file is provided
 
@@ -38,8 +39,10 @@ This repo contains the code for the project “Contract SchedulingWith Predictio
 
 	The output will be generated inside the folder “Results”. 
 	There will be three outputs: 
-		1) two .csv files which indicate the score/acceleration ratio of different schedules for different interruption times. Each column is associated with a schedule and each row is associated with an interruption time. 
-		2) a .txt file which includes a table (in LaTeX format) of advantage/strong-advantage of scheduling algorithms with prediction over the baseline algorithm.
+		1) two .csv files with the score/acceleration ratio of different schedules for various interruption times. 
+		Each column is associated with a schedule and each row is associated with an interruption time. 
+		2) a .txt file which includes a table (in LaTeX format) of advantage/strong-advantage of scheduling algorithms 
+		with prediction over the baseline algorithm.
 	The names of the files include all parameters as indicated in the input file.
 
 The results reported in the paper are included in the "Results" folder.
