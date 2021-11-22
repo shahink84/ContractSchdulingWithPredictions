@@ -1,0 +1,15 @@
+\begin{table} [!h] 
+	\centering 
+	\scalebox{0.85}{
+	\begin{tabular}{ | p{ 0.3\columnwidth } | p{ 0.17\columnwidth } | p{ 0.17\columnwidth } | p{ 0.15\columnwidth } | p{ 0.15\columnwidth } | }
+		\hline 
+		& $p =0.05$ & $p =0.1$ & $p =0.2$ & $p =0.3$ \\%
+		\hline \hline
+		improvement &  78.42\%& 88.91\%& 75.52\%& 57.54\%\\%
+		\hline
+		strong improv. & 54.54\% & 66.73\% & 50.34\% & 29.07\%\\%
+		\hline
+	\end{tabular} 
+	} 
+	\caption{Percentage of interruptions in $[2,2 ^ {20}]$ for which the algorithm with prediction outperforms the baseline schedule.}
+\end{table}
