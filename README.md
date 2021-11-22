@@ -2,6 +2,7 @@
 
 This repo contains the code for the project “Contract SchedulingWith Predictions”.
 
+
 Files description:
 	aux_methods.h/cpp: auxiliarly functions used for contract scheduling experiments and generating output files
 	baseline.h/cpp: computation of the exponential schedules (without prediction) that act as baseline schedules 
@@ -9,15 +10,18 @@ Files description:
 	binary_prediction.h/cpp: experiments when the prediction is answers to binary queries
 	main.cpp: setting input/output files and the main function.
 
+
 Compile: 
 	To compile the code, simply run the following:
 		g++ -std=c++11 -o contract_scheduling *.cpp
 	The outcome will be an executable named “contract_scheduling”
 
+
 Setting parameters:
 	In an input file, set the parameters using the template provided in the sample “input_parameters.txt”. Please follow the instructions in that file.
 	You might copy “input_parameters.txt” and change the parameters (e.g., r or H) in a new file. 
 	Do not remove/rename “input_parameters.txt” as it acts as default input when no input-file is provided
+
 
 Running the code:
 	Simply run the following:
@@ -27,6 +31,7 @@ Running the code:
 		contract_scheduling input.txt
 
 	If the file name is not provided, the default file “input_parameters.txt” will be used as the input.
+
 
 Output:
 	The output will be generated inside the folder “Results”. 
