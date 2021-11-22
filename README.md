@@ -1,4 +1,4 @@
-# ContractSchdulingWithPredictions
+# Contract Schduling With Predictions
 
 This repo contains the code for the project “Contract SchedulingWith Predictions”.
 
