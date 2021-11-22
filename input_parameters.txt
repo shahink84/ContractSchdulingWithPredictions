@@ -1,0 +1,18 @@
+please enter the following parameters. DO NOT CHANGE THIS FILE; just update the values.
+	predic_type is the type of prediction; it is assumed to be "interruption" unless "binary" is indicated.
+	r (>=4) is the robustness. Enter a value in the range [4,7]
+	H is noise upper bound. Enter a value in the range [0.01,0.9]
+	noise is "normal" unless "uniform" is indicated (noise is ignored for binary predictions).
+	noise_std_dev is the standard deviation of the noise if it is normal (only used if the noise_type is "normal", ignored otherwise). 
+	n_points is the number of evenly spaced points for the interruption time (in the range 2, 2^20). Enter a value in the range [10,5000]
+	The last lines indicate the values of p for which the algorithms are tested (enter one value per line; there can be less or more than four lines). Enter values in the range [0.01,0.9]
+predic_type: 	interruption
+r:		4.5
+H: 		0.1
+noise_type: 	normal
+noise_std_dev: 	1
+n_points:	1000
+p0:		0.05
+p1:		0.1
+p2:		0.2
+p3:		0.3
