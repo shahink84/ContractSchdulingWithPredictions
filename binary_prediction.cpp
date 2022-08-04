@@ -4,7 +4,7 @@
 double get_d(double r, double p, int n)
 {
     double br = (r + sqrt(r * r - 4 * r)) / 2;
-    double K = (2 * p * n + 1) / n;
+    double K = (double) n /(2 * p * n + 1) ; // (2 * p * n + 1) / n; // fixed July 2022
     double res = -1;
     if (r <= (1 + K) * (1 + K) / K)
         res = br;
